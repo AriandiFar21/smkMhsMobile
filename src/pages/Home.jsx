@@ -62,12 +62,12 @@ const Home = ({navigation}) => {
       
       </View>
       <View style={{paddingHorizontal: 16, flexDirection: 'row', justifyContent: 'space-between'  }}>
-      <Text style={{fontSize: 14, fontWeight: 'bold', color: 'black', paddingTop: 4}}>Burger Ayam </Text>
-      <Text style={{fontSize: 14,  fontWeight: 'bold', color: 'black', paddingTop: 4 }}>Nasgor Gacor Cik </Text>
+      <Text style={{fontSize: 16, fontWeight: 'bold', color: 'black', paddingTop: 4}}>Burger Ayam </Text>
+      <Text style={{fontSize: 16,  fontWeight: 'bold', color: 'black', paddingTop: 4 }}>Nasgor Gacor Cik </Text>
       </View>
       <View style={{paddingHorizontal: 16, flexDirection: 'row', justifyContent: 'space-between'  }} >
-      <Text style={{fontSize: 14,  fontWeight: 'bold', color: 'red', paddingTop: 4 }} >Rp 45.000 </Text>
-      <Text style={{fontSize: 14,  fontWeight: 'bold', color: 'red',paddingTop: 4, marginHorizontal: 55, }} >Rp 20.000 </Text>  
+      <Text style={{fontSize: 16,  fontWeight: 'bold', color: 'red', paddingTop: 4 }} >Rp 45.000 </Text>
+      <Text style={{fontSize: 16,  fontWeight: 'bold', color: 'red',paddingTop: 4 }} >Rp 20.000 </Text>  
       </View>
    
 
@@ -89,17 +89,17 @@ const Home = ({navigation}) => {
           <Image style={{width: 216, height: 216, borderRadius: 7,}} source={require('../assets/images/kukubima.png')}  />
       </View>
       <View style={{paddingHorizontal: 16, flexDirection: 'row', justifyContent: 'space-between'  }}>
-      <Text style={{fontSize: 14, fontWeight: 'bold', color: 'black', paddingTop: 4}} > Teh Obeng Segar </Text>
-      <Text style={{fontSize: 14,  fontWeight: 'bold', color: 'black', paddingTop: 4}} > Kuku Bims Bisa gak </Text>
+      <Text style={{fontSize: 16, fontWeight: 'bold', color: 'black', paddingTop: 4}} > Teh Obeng Segar </Text>
+      <Text style={{fontSize: 16,  fontWeight: 'bold', color: 'black', paddingTop: 4}} > Kuku Bims Bisa gak </Text>
       </View>
       <View style={{paddingHorizontal: 16, flexDirection: 'row', justifyContent: 'space-between'  }} >
-      <Text style={{fontSize: 14,  fontWeight: 'bold', color: 'red', paddingTop: 4 }}>Rp10.000</Text>
-      <Text style={{fontSize: 14,  fontWeight: 'bold', color: 'red', marginHorizontal: 80, paddingTop: 4 }}>Rp15.000</Text>  
+      <Text style={{fontSize: 16,  fontWeight: 'bold', color: 'red', paddingTop: 4 }}>Rp10.000</Text>
+      <Text style={{fontSize: 16,  fontWeight: 'bold', color: 'red', paddingTop: 4 }}>Rp15.000</Text>  
       </View>
    
       
       <View style={{alignItems: 'center', paddingTop: 25, }} >
-      <Text style={{fontSize: 14,  fontWeight: 'bold',}}>Copyright : Fariel Pacar Zetta</Text>
+      <Text style={{fontSize: 11,  fontWeight: 'bold',}}>Copyright : Fariel Pacar Zetta</Text>
       </View>
 
       </View>

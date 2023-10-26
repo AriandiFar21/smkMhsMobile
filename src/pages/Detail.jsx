@@ -1,19 +1,21 @@
-import { View, Text, Image, TextInput, } from 'react-native'
+import { View, Text, Image, TextInput, TouchableOpacity } from 'react-native'
 import React from 'react'
 
-const Detail = () => {
+const Detail = ({navigation}) => {
   return (
 
- <View style={{paddingHorizontal: 16, paddingTop: 24}}>
+ <View style={{paddingHorizontal: 16, paddingTop: 24,}}>
   <View style={{
   backgroundColor: 'red',
   height: 60,
   width: 60,
-  borderRadius: 100,}}>
+  borderRadius: 100,
+  display: 'flex',
+  flexDirection: 'row'}}>
 
     <View style={{flexDirection: 'row', justifyContent: 'space-between',}}>
     <Image style={{marginTop: 6, marginHorizontal: 3, width: 50, height:50,}} source={require('../assets/images/Frame2.png')} />
-    <Text style={{marginTop: 20,}}>Kembali</Text>
+    <Text style={{marginLeft: 12, marginRight: 7, marginTop: 13, fontSize: 20, fontWeight: 'bold', color: 'black',}}>Kembali</Text>
     </View>
     
   </View>
@@ -50,10 +52,15 @@ const Detail = () => {
               borderWidth: 1,
               borderRadius: 7,
               padding: 10,
-          }} >
-          <Text>Masukkan Angka</Text>
+          }} 
+          placeholder='Masukan Angka'
+          >
+            
         </TextInput>
       </View>
+      
+      <View>
+      <TouchableOpacity onPress={() => navigation.navigate('Sukses')}  >
 
       <View >
           <Text
@@ -74,6 +81,10 @@ const Detail = () => {
              fontWeight: 'bold',
              }}> Konfirmasi Pemesanan </Text>
           </View>
+
+</TouchableOpacity>
+      </View>
+
           
  </View>
     
