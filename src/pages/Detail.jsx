@@ -41,7 +41,13 @@ const Detail = ({navigation}) => {
 
       </View>
 
-      <View style={{paddingTop: 38, paddingHorizontal: 16,}}>
+      <View style={{paddingTop: 28, alignItems: 'center', paddingHorizontal: 16,}}>
+        <View style={{backgroundColor: 'black', borderColor: 'black', width: 500, height: 1, }}>
+
+        </View>
+      </View>
+
+      <View style={{paddingTop: 28, paddingHorizontal: 16,}}>
         <Text>Masukkan Jumlah Pesanan</Text>
       </View>
 
@@ -69,7 +75,7 @@ const Detail = ({navigation}) => {
             backgroundColor: 'red', 
             marginHorizontal: 16,
              borderRadius: 16, 
-             marginTop: 151, 
+             marginTop: 135, 
              flexDirection: 'row', 
              justifyContent: 'space-between',
              alignItems: 'center',
